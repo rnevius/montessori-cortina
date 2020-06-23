@@ -17,3 +17,9 @@ Django + Wagtail site for Centro Montessori Cortina in Cortina d'Ampezzo, Italy.
 5. Run the server:
 
         poetry run python manage.py runserver
+
+### QA Considerations
+
+1. Run the Black formatter before committing:
+
+        poetry run black --include **/*.py --target-version py38
