@@ -9,7 +9,7 @@ Django + Wagtail site for Centro Montessori Cortina in Cortina d'Ampezzo, Italy.
 
         poetry install
 
-3. Grab a copy of the test database and test user credentials.
+3. Grab a copy of the test database. The development superuser is `admin / adminadminadmin`.
 4. Run migrations:
 
         poetry run python manage.py migrate
